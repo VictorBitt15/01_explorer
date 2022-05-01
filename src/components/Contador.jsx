@@ -12,9 +12,9 @@ export function Contador() {
     return(
         <div>
             <h2>
-            0
+            {counter}
             </h2>
-            <button type="button" onClick={increment}>Increment</button>
+            <button type="button" onClick={increment}>Increment +1</button>
         </div>
     );
 }
